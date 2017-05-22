@@ -20,7 +20,7 @@ body{
 	background: yellow;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
-	border-radius: 50px;
+	border-radius: 100px;
 	position: relative;
 	top: -50px;
 	left: 100px;
@@ -36,13 +36,117 @@ body{
 }
 
 #casaTecho {
-	border-bottom: 150px solid black;
+	border-bottom: 140px solid black;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
 	height: 0;
 	width: 450px;
 	position: absolute;
-	top: 250px;
-	left: 630px;
+	top: 200px;
+	left: 625px;
 }
+
+#casaPuerta {
+	width: 100px;
+	height: 200px;
+	background: grey;
+	position: absolute;
+	top: 400px;
+	left: 750px;
+}
+
+#casaVentana {
+	width: 70px;
+	height: 70px;
+	background: pink;
+	position: absolute;
+	top: 400px;
+	left: 950px;
+}
+
+#casaCorazon {
+	width: 0px;
+  	height: 0px;
+  	border-right: 30px solid transparent;
+  	border-top: 30px solid pink;
+  	border-left: 30px solid pink;
+  	border-bottom: 30px solid pink;
+  	border-top-left-radius: 30px;
+  	border-top-right-radius: 30px;
+  	border-bottom-left-radius: 30px;
+  	border-bottom-right-radius: 30px;
+  	position: absolute;
+  	top: 440px;
+  	left: 775px;
+ }
+
+#casaChimenea {
+	width: 70px;
+	height: 100px;
+	background: brown;
+	position: absolute;
+	top: 150px;
+	left: 950px;
+	z-index: 10000;
+}
+
+#humo1 {
+    width: 40px;
+    height: 40px;
+    background: grey;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 100;
+    position: absolute;
+    top: 115px;
+    left: 1030px;
+}
+
+#humo2 {
+    width: 50px;
+    height: 50px;
+    background: grey;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 100px;
+    position: absolute;
+    top: 125px;
+    left: 980px;
+    z-index: 1000;
+}
+
+#humo3 {
+    width: 70px;
+    height: 70px;
+    background: grey;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 100px;
+    position: absolute;
+    top: 110px;
+    left: 1072px;
+}
+
+#humo3 {
+    width: 70px;
+    height: 70px;
+    background: grey;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 100px;
+    position: absolute;
+    top: 110px;
+    left: 1080px;
+}
+
+#humo4 {
+    width: 23px;
+    height: 23px;
+    background: grey;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 100px;
+    position: absolute;
+    top: 84px;
+    left: 1138px;
 }
